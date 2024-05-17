@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Connect to external session",
+      "type": "go",
+      "debugAdapter": "dlv-dap", // `legacy` by default
+      "request": "attach",
+      "mode": "remote",
+      "port": 12345,
+      "host": "10.0.0.132", // can skip for localhost
+      "substitutePath": [
+        {
+          "from": "${workspaceFolder}", // local directory
+          "to": "/home/kira/vscode-remote-headless" // remote directory
+        },
+      ],
+    }
+  ]
+}
