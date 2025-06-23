@@ -1,1 +1,1 @@
-break TestMyFunction
+break cmd/foo/main.go:12

@@ -1,6 +1,5 @@
 run:
-	go run foo/cmd/foo/main.go arg1
-
+	go run cmd/foo/main.go arg1
 
 dlv-debug:
 	echo "break cmd/foo/main.go:12" > init.txt

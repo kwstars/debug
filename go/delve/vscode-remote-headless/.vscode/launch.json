@@ -8,11 +8,11 @@
       "request": "attach",
       "mode": "remote",
       "port": 12345,
-      "host": "10.0.0.132", // can skip for localhost
+      "host": "127.0.0.1", // can skip for localhost
       "substitutePath": [
         {
           "from": "${workspaceFolder}", // local directory
-          "to": "/home/kira/vscode-remote-headless" // remote directory
+          "to": "${workspaceFolder}" // remote directory
         },
       ],
     }
